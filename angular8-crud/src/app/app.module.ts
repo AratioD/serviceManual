@@ -9,6 +9,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductsAddComponent } from './products-add/products-add.component';
 import { ProductsEditComponent } from './products-edit/products-edit.component';
 import { ProductsDetailComponent } from './products-detail/products-detail.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductsDetailComponent } from './products-detail/products-detail.compo
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
